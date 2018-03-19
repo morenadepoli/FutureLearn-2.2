@@ -1,11 +1,4 @@
-# FutureLearn-2.2
-# Python script to generate a random username
-
-from random import choice, randint
-
-first=['marco','giovanni','rosa','marianna','ilaria','rino']
-second=['rosso','verde','giallo','blu','arancione']
-symbol=['!','£','$','%','&','/','(',')','=']
+FutureLearn-2.2
+Python script to generate a random username
 
 
-print(choice(first)+choice(symbol)+choice(second)+str(randint(0,9))+str(randint(0,9)))
